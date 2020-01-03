@@ -1,0 +1,95 @@
+*:focus{outline: none;}
+body {
+    background: #76b852; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+    background: -moz-linear-gradient(right, #76b852, #8DC26F);
+    background: -o-linear-gradient(right, #76b852, #8DC26F);
+    background: linear-gradient(to left, #76b852, #8DC26F);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.login-page {
+    width: 900px;
+    padding: 1% 0 0;
+    margin: auto;
+}
+.event-form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 900px;
+    margin: auto;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.event-name{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1c1c1c;
+    font-family: 'Montserrat',sans-serif;
+}
+.event-description{
+    border: 1px solid whitesmoke;
+    padding: 25px 50px 75px 100px;;
+    border-radius: 2px;
+    background-color: white;
+}
+p.event-description{
+    border: 1px solid whitesmoke;
+    padding: 25px 50px 75px 100px;;
+    border-radius: 2px;
+    background-color: white;
+}
+.header {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 100%;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+a.header{
+    margin: 10px;
+    background: #FFFFFF;
+}
+.btn-group .button {
+    background-color: #8DC26F; /* Green #4CAF50*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-group .button:hover {
+    background-color: #76b852;
+}
+.btn-search {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../resources/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
